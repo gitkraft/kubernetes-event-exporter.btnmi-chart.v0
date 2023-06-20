@@ -79,7 +79,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | `extraContainerPorts`                             | Optionally specify extra list of additional port-mappings for the container                                               | `[]`                                |
 | `image.registry`                                  | Container image registry                                                                                                  | `docker.io`                         |
 | `image.repository`                                | Container image name                                                                                                      | `bitnami/kubernetes-event-exporter` |
-| `image.tag`                                       | Container image tag                                                                                                       | `1.1.0-debian-11-r51`               |
+| `image.tag`                                       | Container image tag                                                                                                       | `1.1.0-debian-11-r60`               |
 | `image.digest`                                    | Container image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag                 | `""`                                |
 | `image.pullPolicy`                                | Container image pull policy                                                                                               | `IfNotPresent`                      |
 | `image.pullSecrets`                               | Specify docker-registry secret names as an array                                                                          | `[]`                                |
@@ -175,7 +175,7 @@ Find more information about how to deal with common errors related to Bitnami's 
 
 ## License
 
-Copyright &copy; 2023 Bitnami
+Copyright &copy; 2023 VMware, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
